@@ -282,10 +282,14 @@ header a {
 }
 
 .block-4 .cuadro-right .cuadro-1 a img {
+    animation: floatCard 0s ease-in-out infinite;
+    transition: transform 0.3s;
     width: 30px;
 }
 
 .block-4 .cuadro-left .cuadro-1 a img {
+    animation: floatCard 0s ease-in-out infinite;
+    transition: transform 0.3s;
     width: 30px;
 }
 
