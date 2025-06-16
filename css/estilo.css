@@ -1098,9 +1098,10 @@ footer {
         font-size: 16px;
     }
 
-    header button {
+    header a {
         font-size: 16px;
-        width: 130px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .block-1 h2 {
