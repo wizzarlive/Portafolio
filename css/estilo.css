@@ -720,6 +720,11 @@ footer {
     font-weight: 400;
 }
 
+header a:hover {
+    background: var(--boton-hover);
+
+}
+
 .block-1 .boton-1:hover {
     background: var(--boton-hover);
 }
