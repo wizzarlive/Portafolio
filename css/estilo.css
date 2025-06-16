@@ -50,13 +50,16 @@ header h1 {
     font-size: 18px;
 }
 
-header button {
+header a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
     letter-spacing: var(--espaciado-letras);
     cursor: pointer;
     border-radius: 5px;
     font-family: var(--fuente-staatliches);
-    height: 43px;
-    width: 190px;
     border: none;
     background: var(--boton-fondo);
     border: var(--boton-border);
