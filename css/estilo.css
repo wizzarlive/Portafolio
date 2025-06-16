@@ -538,13 +538,14 @@ header a {
 }
 
 .block-8 h2 {
+    margin-bottom: -160px;
     color: white;
     font-weight: 400;
     font-family: var(--fuente-staatliches);
     font-size: 48px;
     letter-spacing: var(--espaciado-letras);
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 90px;
     text-align: center;
 }
 
@@ -579,6 +580,8 @@ header a {
 }
 
 .block-8 .card-1 img {
+    animation: floatCard 2s ease-in-out infinite;
+    transition: transform 0.3s;
     width: 100%;
 }
 
@@ -813,6 +816,10 @@ footer {
     .block-7 .cuadro-1 .card-tall {
         padding: 20px;
         height: 370px;
+    }
+
+    .block-8 h2 {
+        margin-bottom: -135px;
     }
 
     .block-8 .cuadro-1 {
@@ -1188,6 +1195,10 @@ footer {
 
     .block-7 .cuadro-1 .card-tall {
         height: 320px;
+    }
+
+    .block-8 h2 {
+        margin-bottom: 0;
     }
 
     .block-8 .cuadro-1 {
